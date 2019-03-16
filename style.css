@@ -1,3 +1,13 @@
-.class-img{
-    width: 20%
+
+.icon-img-left{
+    width: 30%;
+    margin: 35px;
+
+}
+.icon-img-right{
+    width: 30%;
+    margin-left: 160px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
 }
