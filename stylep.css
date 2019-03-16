@@ -3,6 +3,12 @@ left {float: left;
 right {float: right;
 	width: 50%;}
 
+.navbar
+	{
+		background-color: #7BE7D2;
+		padding: 0 !important;
+		border: 10px black;
+	}
 img{
 	text-align: center;
 	display: block;
@@ -10,10 +16,13 @@ img{
 	margin-right: auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 60%;
-	height: auto;
 }
-
+.cost{
+	width: 65%;
+}
+.quantity{
+	width: 65%;
+}
 #goal {
 	text-align: center;
 }

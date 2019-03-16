@@ -4,8 +4,6 @@
         <title> </title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-            <!-- Include Font Awesome Stylesheet in Header -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="script.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,8 +11,8 @@
 
     </head>
     <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">Wise</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -24,24 +22,74 @@
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Progress</a>
+                          <a class="nav-link" href="progress.html">Progress</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Settings</a>
+
                         </li>
                 
                       </ul>
                     </div>
                   </nav>
             <div class="container">
-                    <div class="col-md-12">
-             <input type="image" img src="images/boba1.png" class="icon-img-left" id="icon1" />   
-             <input type="image" img src="images/clothes1.png" class="icon-img-right" id="icon2" />  
-             <input type="image" img src="images/meals1.png" class="icon-img-left" id="icon3" />  
-             <input type="image" img src="images/coffee.png" class="icon-img-right" id="icon4" />  
- 
-
-        </div>
+                    <div class="row text-center"> 
+                     
+            
+                        <div class="col-md-3">
+             <input type="image" img src="images/boba1.png" class="icon-img" id="icon1" onClick="add('amount1','spent1', 5.50);" />  
+            <p class= "amount" id="amount1"> 0 </p>
+                    </div>
+                    <div class="col-md-3">
+                            <img src="images/rectangle.png" class="rect-img">
+                            <div class="stats">
+                                <p> Goal: 3</p>
+                                <b>Total:</b><p id="spent1">0</p>
+                            </div>
+                        </div>
+            
+                    <div class="col-md-3">
+             <input type="image" img src="images/clothes1.png" class="icon-img" id="icon2" onClick="add('amount2','spent2', 25);"  />  
+             <p class= "amount" id="amount2"> 0 </p>
+                     </div>
+                     <div class="col-md-3">
+                            <img src="images/rectangle.png" class="rect-img">
+                            <div class="stats">
+                                <p> Goal: 1</p>
+                                <b>Total:</b><p id="spent2">0</p>
+                            </div>
+                    </div>
+                </div>
+                    
+            <div class="row text-center"> 
+                <div class="col-md-3">
+                    <input type="image" img src="images/meals1.png" class="icon-img" id="icon3" onClick="add('amount3','spent3', 15);"  />  
+                    <p class= "amount" id="amount3"> 0 </p>
+                </div>
+                <div class="col-md-3">
+                        <img src="images/rectangle.png" class="rect-img">
+                        <div class="stats">
+                            <p> Goal: 2</p>
+                            <b>Total:</b><p id="spent3">0</p>
+                        </div>
+                        </div>
+            
+            <div class="col-md-3">
+             <input type="image" img src="images/coffee.png" class="icon-img" id="icon4" onClick="add('amount4','spent4', 3);" />  
+             <p class= "amount" id="amount4"> 0 </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/rectangle.png" class="rect-img">
+                        <div class="stats">
+                            <p> Goal: 4</p>
+                            <b>Total:</b><p id="spent4">0</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        
+    
+        </body>
 
 
     </body>
