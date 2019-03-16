@@ -2,13 +2,18 @@ left {float: left;
 	width: 50%;}
 right {float: right;
 	width: 50%;}
-
-.navbar
+	.navbar
 	{
 		background-color: #7BE7D2;
 		padding: 0 !important;
 		border: 10px black;
 	}
+	.navbar-brand img
+	{
+		height: 40px;
+		padding-left: 20px;
+	}
+
 img{
 	text-align: center;
 	display: block;
