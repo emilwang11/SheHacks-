@@ -1,0 +1,19 @@
+left {float: left; 
+	width: 50%;}
+right {float: right;
+	width: 50%;}
+
+img{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 60%;
+	height: auto;
+}
+
+#goal {
+	text-align: center;
+}
